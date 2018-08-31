@@ -1,12 +1,37 @@
-.flex-container {
+.container {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-content: center;
 }
+
+.item {
+	flex-basis: <100%> | auto;
+}
+
+.navbar {
+	width: 850px;
+	position: relative;
+	left: 660px;
+	top:-200px;
+}
+
+
+
+
+body {
+
+	background-color: blue;
+}
+
 
 .banner {
 
 	height: 300px;
-	width: 1900px;
+	width: 1500px;
 
+}
+
+.profilePic {
+	height: 200px;
 }
