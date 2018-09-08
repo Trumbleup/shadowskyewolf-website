@@ -56,6 +56,7 @@ body {
   background: #55ACEE;
   color: white;
   margin: 4px;
+  border-radius: 30px;
 }
 
 .navbar a.fa-twitter:hover {
